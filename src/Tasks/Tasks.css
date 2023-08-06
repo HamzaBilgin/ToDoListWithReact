@@ -1,0 +1,14 @@
+.tasks{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.tasks ul{
+    width: 50%;
+    list-style-type: none;
+}
+.tasks .tasks--list{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}

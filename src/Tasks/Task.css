@@ -1,0 +1,25 @@
+li{
+    height: 50px;
+    padding:0 20px;
+    background-color: rgb(238, 172, 172,0.5);
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+li div button{
+    width: 80px;
+    margin-left: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    height: 30px;
+}
+li div button:hover{
+   background-color: red;
+   color: white;
+}
