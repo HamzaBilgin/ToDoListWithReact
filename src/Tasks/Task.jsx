@@ -6,7 +6,8 @@ const Task = ({task,tasks,setTasks}) => {
   };
   return (
     <li>
-       <span>{task.taskName}</span>
+       <span
+       style={{color:"red"}}>{task.taskName}</span>
        <div>
        <button>Güncelle</button>
        <button onClick={deleteTask}>Sil</button>
