@@ -19,12 +19,12 @@ const NewTaskForm = (props) => {
       setIsValid(false);
       return;
     }
-    const newProductData = {
+    const newTaskData = {
       id: props.tasks.length + 1,
       taskName,
     };
     // props.setProducts((prevState) => [...prevState, newProductData]);
-    props.onSaveProduct(newProductData);
+    props.onSaveTask(newTaskData);
     settaskName("");
   };
   return (

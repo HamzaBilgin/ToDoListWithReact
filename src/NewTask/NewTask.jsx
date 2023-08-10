@@ -5,12 +5,12 @@ import "./NewTask.css"
 
 
 const NewTask = ({ tasks, setTasks }) => {
-  const onSaveProduct = (newTask) => {
+  const onSaveTask = (newTask) => {
     setTasks((prevState) => [newTask, ...prevState]);
   };
   return (
     <div className='newTaskWrapper'>
-      <NewTaskForm onSaveProduct = {onSaveProduct} tasks = {tasks}/>
+      <NewTaskForm onSaveTask = {onSaveTask} tasks = {tasks}/>
     </div>
   )
 }
